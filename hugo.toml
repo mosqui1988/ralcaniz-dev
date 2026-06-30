@@ -1,0 +1,7 @@
+baseURL = 'https://ralcaniz.dev/'
+defaultContentLanguage = 'es'
+title = 'De Reparto a Root'
+theme = 'PaperMod'
+
+[params]
+  author = "Rubén Alcañiz"
