@@ -1,0 +1,16 @@
+/* Tipografía: usamos las fuentes nativas del sistema operativo del visitante
+   en vez de cargar una fuente externa (más rápido y más privado). */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Ubuntu', 'Cantarell', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.7;
+}
+
+/* Los títulos usan la misma familia pero un poco más de peso visual,
+   para mantener coherencia sin mezclar fuentes distintas. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Ubuntu', 'Cantarell', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
