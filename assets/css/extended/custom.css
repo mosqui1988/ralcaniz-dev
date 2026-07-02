@@ -33,4 +33,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.95rem;
   color: var(--secondary);
 }
+.post-entry {
+  padding: 1.2rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease;
+}
 
+.post-entry:hover {
+  border-color: var(--secondary);
+}
+.footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
