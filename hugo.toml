@@ -5,3 +5,4 @@ theme = 'PaperMod'
 
 [params]
   author = "Rubén Alcañiz"
+  description = "De camionero a desarrollador: aprendiendo Linux y programación desde cero."
