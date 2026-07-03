@@ -49,3 +49,17 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
 }
+.post-content h1 > a.anchor,
+.post-content h2 > a.anchor,
+.post-content h3 > a.anchor,
+.post-content h4 > a.anchor {
+    position: absolute;
+    margin-left: 0.3em;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    position: relative;
+}
