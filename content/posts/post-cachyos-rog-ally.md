@@ -1,6 +1,6 @@
 ---
 title: "Le metí Linux a mi ROG Ally (y el USB no quería arrancar)"
-date: date: 2026-07-06T09:00:00
+date: 2026-07-06T09:00:00
 draft: false
 ---
 

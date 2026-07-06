@@ -1,6 +1,6 @@
 ---
 title: "Quería un Chrome Remote Desktop para Linux (y me topé con un bug real)"
-date: date: 2026-07-06T10:00:00
+date: 2026-07-06T10:00:00
 draft: false
 ---
 
