@@ -1,0 +1,28 @@
+{{ if eq .Kind "page" }}
+<script>
+  // Estamos en un post individual: lo marcamos como leído
+  try {
+    var leidos = JSON.parse(localStorage.getItem('posts-leidos') || '[]');
+    var url = window.location.pathname;
+    if (leidos.indexOf(url) === -1) {
+      leidos.push(url);
+      localStorage.setItem('posts-leidos', JSON.stringify(leidos));
+    }
+  } catch (e) {}
+</script>
+{{ else if or (eq .Kind "home") (eq .Kind "section") }}
+<script>
+  // Estamos en una lista de posts (portada u otra sección): atenuamos los ya leídos
+  document.addEventListener('DOMContentLoaded', function () {
+    try {
+      var leidos = JSON.parse(localStorage.getItem('posts-leidos') || '[]');
+      document.querySelectorAll('.post-entry').forEach(function (entry) {
+        var link = entry.querySelector('.entry-link');
+        if (link && leidos.indexOf(new URL(link.href).pathname) !== -1) {
+          entry.classList.add('post-leido');
+        }
+      });
+    } catch (e) {}
+  });
+</script>
+{{ end }}
