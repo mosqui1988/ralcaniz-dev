@@ -1,5 +1,6 @@
 baseURL = 'https://ralcaniz.dev/'
 defaultContentLanguage = 'es'
+timeZone = 'Europe/Madrid'
 title = 'De Reparto a Root'
 theme = 'PaperMod'
 

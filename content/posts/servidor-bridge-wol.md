@@ -1,6 +1,6 @@
 ---
 title: "Le di vida a un PC de hace once años para poder encender el otro desde el sofá (o desde el fin del mundo)"
-date: 2026-07-07T03:00:00
+date: 2026-07-07T00:30:00
 draft: false
 description: "Cómo fui, paso a paso, montando un pequeño servidor casero para poder encender mi PC principal estando fuera de casa. Con tropiezos, un experimento que no salió, y bastante vocabulario nuevo explicado sobre la marcha."
 ---
