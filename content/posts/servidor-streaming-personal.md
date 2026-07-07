@@ -1,6 +1,6 @@
 ---
 title: "Me he montado mi propio servidor de streaming: ahora puedo jugar en mi PC de casa desde cualquier sitio"
-date: 2026-07-07T19:00:00
+date: 2026-07-07T14:00:00
 draft: false
 description: "Cómo terminé de cerrar el círculo del proyecto del servidor casero: no solo encender el PC en remoto, sino también jugar en él desde una red completamente distinta a la de casa, usando el mando de mi ROG Ally."
 ---
