@@ -66,3 +66,9 @@ h1, h2, h3, h4, h5, h6 {
 .post-entry.post-leido {
   opacity: 0.55;
 }
+.post-content img {
+  border-radius: 12px;
+  max-width: 280px;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
