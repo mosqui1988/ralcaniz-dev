@@ -8,6 +8,7 @@ theme = 'PaperMod'
   author = "Rubén Alcañiz"
   description = "De camionero a desarrollador: aprendiendo Linux y programación desde cero."
   disableSpecial1stPost = true
+  images = ["img/og-image.jpg"]
 
 [[menu.main]]
   name = "Sobre mí"
