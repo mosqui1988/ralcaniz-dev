@@ -5,7 +5,7 @@ disableShare: true
 comments: false
 ---
 
-![Rubén Alcañiz](/img/foto-sobre-mi.jpg)
+![Sobre mí](/img/banner-sobre-mi.jpg)
 
 Soy Rubén Alcañiz Meseguer. Mi trabajo habitual es repartidor de cristales, un oficio de pura fuerza física, y ahora mismo estoy de baja por una lesión persistente en ambos brazos, que llevo más de un año arrastrando pese a infiltraciones y fisioterapia. No fue una decisión con muchas alternativas — tocaba reinventarme, y decidí hacerlo hacia el desarrollo de software.
 
@@ -31,3 +31,5 @@ A corto plazo: entrar en DAM y sentar bases sólidas. A medio plazo tengo un obj
 Tengo ganas de hacer cosas. Si te interesa ver cómo avanza esto, sígueme el rastro por aquí.
 
 📬 [ruben@ralcaniz.dev](mailto:ruben@ralcaniz.dev) · 📄 [Ver mi CV](/cv/)
+
+{{< linkedin-badge >}}

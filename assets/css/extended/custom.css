@@ -72,3 +72,35 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 0 auto 1.5rem auto;
 }
+.post-content img[src*="banner-sobre-mi"] {
+  max-width: 100%;
+}
+.linkedin-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1rem;
+  margin-top: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--primary);
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.linkedin-button:hover {
+  border-color: var(--secondary);
+  opacity: 0.85;
+}
+
+.linkedin-button__icon {
+  flex-shrink: 0;
+  color: #0A66C2;
+}
+
+.linkedin-button__prompt {
+  color: var(--secondary);
+  margin-right: 0.3rem;
+}
