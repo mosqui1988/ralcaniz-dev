@@ -1,6 +1,6 @@
 ---
 title: "Le cambié el disco a mi servidor casero (y no fue ningún milagro, solo memoria)"
-date: 2026-07-15T18:00:00+02:00
+date: 2026-07-15T06:00:00+02:00
 draft: false
 description: "Cómo detecté que el disco duro de mi servidor casero estaba desgastado y lo sustituí por un SSD."
 ---
