@@ -24,3 +24,8 @@ theme = 'PaperMod'
   name = "Posts"
   url = "/posts/"
   weight = 20
+
+[[menu.main]]
+name = "Impresión 3D"
+url = "/impresion-3d/"
+weight = 25

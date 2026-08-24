@@ -33,3 +33,6 @@ Tengo ganas de hacer cosas. Si te interesa ver cómo avanza esto, sígueme el ra
 📬 [ruben@ralcaniz.dev](mailto:ruben@ralcaniz.dev) · 📄 [Ver mi CV](/cv/)
 
 {{< linkedin-badge >}}
+
+
+Fuera del terminal también tengo las manos ocupadas: desde 2015 practico impresión 3D como hobby, ahora mismo con una impresora de resina de gama alta. [Cuento más por aquí →](/impresion-3d/)
