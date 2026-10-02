@@ -7,11 +7,13 @@ comments: false
 
 ![Sobre mí](/img/banner-sobre-mi.jpg)
 
-Soy Rubén Alcañiz Meseguer. Mi trabajo habitual es repartidor de cristales, un oficio de pura fuerza física, y ahora mismo estoy de baja por una lesión persistente en ambos brazos, que llevo más de un año arrastrando pese a infiltraciones y fisioterapia. No fue una decisión con muchas alternativas — tocaba reinventarme, y decidí hacerlo hacia el desarrollo de software.
+Soy Rubén Alcañiz Meseguer. He trabajado en la logística del vidrio desde dentro y he pasado por casi todos los puestos: operario de almacén y de maquinaria, preparador de logística, transportista y, por último, encargado logístico. Un trabajo físico y con responsabilidad, donde aprendí a organizar, cumplir plazos y trabajar con equipos y procesos reales.
+
+Una lesión persistente en los brazos, derivada de la manipulación de cargas pesadas, me obligó a parar y a replantearme el camino. No fue una decisión con muchas alternativas — tocaba reinventarme, y decidí hacerlo hacia la informática y el desarrollo de software.
 
 No parto completamente de cero. Hace años saqué el título de Técnico en Sistemas Microinformáticos y Redes y trabajé un tiempo dando soporte técnico — la vida me llevó por otro camino, pero esa base sigue ahí, y ahora quiero recuperarla y construir encima.
 
-Mi plan es cursar el CFGS de Desarrollo de Aplicaciones Multiplataforma (DAM), pero todavía no hay nada decidido: la plaza no está adjudicada y es posible que no me la den. Mientras tanto sigo con la fisioterapia y aprendiendo por mi cuenta. Si me lees y todavía no he empezado el ciclo, es porque sigo esperando, no porque me haya rendido.
+Mi plan es cursar el CFGS de Desarrollo de Aplicaciones Multiplataforma (DAM), pero todavía no hay nada decidido: la plaza no está adjudicada y es posible que no me la den. Mientras tanto sigo aprendiendo por mi cuenta. Si me lees y todavía no he empezado el ciclo, es porque sigo esperando, no porque me haya rendido.
 
 ## Mientras tanto, no me quedo quieto
 
@@ -30,7 +32,7 @@ Algunas cosas que ya he construido:
 
 ## Hacia dónde voy
 
-A corto plazo: sentar bases sólidas, con DAM si me dan plaza y, si no, por mi cuenta. A medio plazo no tengo el camino cerrado. El **desarrollo de videojuegos** me sigue llamando, pero cada vez me engancha más todo lo que tiene que ver con **servidores, redes y seguridad**: montar cosas, protegerlas y comprobar que de verdad se pueden recuperar. Ya se irá viendo hacia dónde tira. No espero llegar de un salto: primero quiero los fundamentos bien puestos, y este blog es la prueba de que los estoy construyendo en público, con ganas, aunque el ritmo sea irregular por la salud y la fisioterapia.
+A corto plazo: sentar bases sólidas, con DAM si me dan plaza y, si no, por mi cuenta. A medio plazo no tengo el camino cerrado. El **desarrollo de videojuegos** me sigue llamando, pero cada vez me engancha más todo lo que tiene que ver con **servidores, redes y seguridad**: montar cosas, protegerlas y comprobar que de verdad se pueden recuperar. Ya se irá viendo hacia dónde tira. No espero llegar de un salto: primero quiero los fundamentos bien puestos, y este blog es la prueba de que los estoy construyendo en público, con ganas, aunque el ritmo sea irregular por la salud.
 
 Tengo ganas de hacer cosas. Si te interesa ver cómo avanza esto, sígueme el rastro por aquí.
 
