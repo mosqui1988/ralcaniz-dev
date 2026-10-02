@@ -27,7 +27,7 @@ La pega es que mi servidor no es precisamente un monstruo: tiene **3,7 GB de RAM
 Immich se instala con Docker, igual que Vaultwarden y Syncthing. Cada programa va en su propia cajita y no se pisan unos a otros. La instalación oficial es un fichero `docker-compose.yml` (la "receta" que dice qué cajitas arrancar y cómo), y le hice cuatro cambios:
 
 - **Fuera el contenedor de machine learning.** Así quitamos de golpe ese gigabyte de RAM.
-- **Solo accesible por Tailscale.** Por defecto Immich escucha en todas las "puertas" de red del servidor. Lo limité a la IP de Tailscale (`100.124.101.103`), así que solo se puede entrar desde mis aparatos conectados a mi red privada. Desde el wifi de casa sin Tailscale, ni lo ve.
+- **Solo accesible por Tailscale.** Por defecto Immich escucha en todas las "puertas" de red del servidor. Lo limité a la IP de Tailscale del servidor, así que solo se puede entrar desde mis aparatos conectados a mi red privada. Desde el wifi de casa sin Tailscale, ni lo ve.
 - **La carpeta de fotos en solo lectura.** Este es el truco importante. Le doy a Immich acceso al disco donde Syncthing guarda las fotos, pero con un `:ro` al final (de *read only*, solo lectura). Immich puede mirar, pero no tocar.
 - **Contraseña de la base de datos aleatoria**, de 32 caracteres, guardada en un fichero que solo puede leer mi usuario.
 
@@ -53,7 +53,7 @@ Comprobamos desde el servidor que el fichero que decía que faltaba existía y s
 
 Bueno, listo no. Después llegó el "conexión rechazada". Aquí había dos sospechosos:
 
-- **La pestaña privada con Tor.** Brave tiene dos pestañas privadas: la normal y la "con Tor". La de Tor manda el tráfico por la red Tor, que no tiene ni idea de qué es mi `100.124.101.103` de Tailscale. Con la pestaña privada normal sí funciona.
+- **La pestaña privada con Tor.** Brave tiene dos pestañas privadas: la normal y la "con Tor". La de Tor manda el tráfico por la red Tor, que no tiene ni idea de qué es mi IP de Tailscale. Con la pestaña privada normal sí funciona.
 - **El cambio automático a HTTPS.** Brave intenta pasar todas las webs a `https://` y mi Immich habla `http://`. Si la mejora a HTTPS está en modo estricto, se estrella. Se arregla quitando los escudos de Brave para ese sitio o poniendo la mejora a HTTPS en modo "Estándar".
 
 Al final entré, creé mi usuario de administrador y… galería vacía, claro. Faltaba decirle dónde estaban las fotos.
