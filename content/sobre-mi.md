@@ -11,7 +11,7 @@ Soy Rubén Alcañiz Meseguer. Mi trabajo habitual es repartidor de cristales, un
 
 No parto completamente de cero. Hace años saqué el título de Técnico en Sistemas Microinformáticos y Redes y trabajé un tiempo dando soporte técnico — la vida me llevó por otro camino, pero esa base sigue ahí, y ahora quiero recuperarla y construir encima.
 
-Mi plan es cursar el CFGS de Desarrollo de Aplicaciones Multiplataforma (DAM), aunque ahora mismo sigo esperando plaza — no sé si me la darán. Si me lees y todavía no he empezado el ciclo, es porque sigo en la lista de espera, no porque me haya rendido.
+Mi plan es cursar el CFGS de Desarrollo de Aplicaciones Multiplataforma (DAM), pero todavía no hay nada decidido: la plaza no está adjudicada y es posible que no me la den. Mientras tanto sigo con la fisioterapia y aprendiendo por mi cuenta. Si me lees y todavía no he empezado el ciclo, es porque sigo esperando, no porque me haya rendido.
 
 ## Mientras tanto, no me quedo quieto
 
@@ -23,10 +23,14 @@ Algunas cosas que ya he construido:
 - 🖥️ [Levanté mi propio servidor casero](/posts/servidor-bridge-wol/) (Debian + Docker) como puente de infraestructura, con Wake-on-LAN real: enciendo mi PC principal desde cualquier red del mundo
 - 🎮 [Monté streaming remoto de juegos de punta a punta](/posts/servidor-streaming-personal/), confirmado incluso jugando desde datos móviles fuera de casa
 - ☁️ [Monté mi propio backup de fotos entre mis dispositivos](/posts/backup-fotos-syncthing/) con Syncthing, sin depender de Google Fotos ni de ninguna nube de terceros
+- 📸 [Me hice mi propio Google Fotos en casa](/posts/immich-galeria-fotos/) con Immich, en solo lectura y accesible únicamente por mi red privada
+- 🔑 [Me monté mi propio gestor de contraseñas](/posts/post-vaultwarden-tailscale/) (Vaultwarden) y luego [probé a recuperarlo desde cero](/posts/simulacro-catastrofe-contrasenas/) en un simulacro de catástrofe
+- 📧 [Hice que el servidor me avise por correo](/posts/aviso-reinicio-servidor-msmtp/) cuando se va la luz y vuelve
+- 💽 [Le cambié el disco al servidor](/posts/migracion-ssd-servidor/) sin perder nada por el camino
 
 ## Hacia dónde voy
 
-A corto plazo: entrar en DAM y sentar bases sólidas. A medio plazo tengo un objetivo claro: el **desarrollo de videojuegos** — es el motivo real por el que le meto horas a esto de madrugada en vez de ver una serie. No espero llegar de un salto: primero quiero los fundamentos bien puestos, y este blog es la prueba de que los estoy construyendo en público, con ganas, aunque el ritmo sea irregular por el trabajo y la salud.
+A corto plazo: sentar bases sólidas, con DAM si me dan plaza y, si no, por mi cuenta. A medio plazo no tengo el camino cerrado. El **desarrollo de videojuegos** me sigue llamando, pero cada vez me engancha más todo lo que tiene que ver con **servidores, redes y seguridad**: montar cosas, protegerlas y comprobar que de verdad se pueden recuperar. Ya se irá viendo hacia dónde tira. No espero llegar de un salto: primero quiero los fundamentos bien puestos, y este blog es la prueba de que los estoy construyendo en público, con ganas, aunque el ritmo sea irregular por la salud y la fisioterapia.
 
 Tengo ganas de hacer cosas. Si te interesa ver cómo avanza esto, sígueme el rastro por aquí.
 
