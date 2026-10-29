@@ -12,7 +12,7 @@ Hay planes que salen a la primera y planes que acaban con un viaje a Dénia. Est
 
 Estoy estudiando 1.º de DAM online y quiero meterme en ciberseguridad. Tengo la Torre, pero por las mañanas no siempre puedo usarla, y esas son justo las horas en las que mejor estudio.
 
-Necesitaba algo portátil, con Linux, que aguantara máquinas virtuales para montar un laboratorio de auditorías y que no costara un riñón.
+Necesitaba algo portátil, con Linux, que aguantara máquinas virtuales para montar un laboratorio de auditorías y que no costara un riñón. (Los necesito los dos, gracias.)
 
 ## El elegido
 
@@ -22,7 +22,7 @@ Antes de decidirme fui a buscar cómo se lleva con Linux. No encontré una pági
 
 ## El plan que se tuerce
 
-El portátil estaba en Madrid. Lo iba a recoger un conocido, pero la cosa se alargaba y no terminaba de cerrarse. Así que hablé yo directamente con el vendedor, le dije que si hacía falta me plantaba en Madrid, y me contó que se iba a pasar unos días de vacaciones a Dénia. Dénia me pilla bastante más cerca que Madrid.
+El portátil estaba en Madrid. Lo iba a recoger un conocido, pero la cosa se alargaba y no terminaba de cerrarse. Así que hablé yo directamente con el vendedor, le dije que si hacía falta me plantaba en Madrid, y me contó que se iba a pasar unos días de vacaciones a Dénia. Dénia me pilla bastante más cerca que Madrid, y a nadie le amarga un día de playa con excusa.
 
 ```
 PLAN A:  Madrid ──► conocido ──► yo (algún día)
@@ -34,7 +34,7 @@ Spoiler: el plan B salió mejor, porque pude revisar el equipo con él delante y
 
 ## Lo que miré antes de pagar
 
-Un portátil de empresa de segunda mano puede ser una ganga o un problema con teclado. Esta fue mi lista:
+Un portátil de empresa de segunda mano puede ser una ganga o un problema con teclado. Y no quería averiguarlo después de pagar, así que fui con una lista, como el que va al súper con hambre pero con disciplina:
 
 ```
 ANTES DE PAGAR
@@ -55,7 +55,7 @@ En la BIOS aparece en *Security → Absolute Persistence Module*, y mi equipo lo
 
 Además, en Lenovo Vantage el servicio Smart Lock (que funciona con Absolute) aparece con un botón de *Comprar*, o sea, no está contratado en este equipo.
 
-**Windows limpio.** En *Configuración → Cuentas → Acceso a trabajo o escuela* no había nada, y el nombre del equipo era el genérico `DESKTOP-algo`. Nadie lo había personalizado antes.
+**Windows limpio.** En *Configuración → Cuentas → Acceso a trabajo o escuela* no había nada, y el nombre del equipo era el genérico `DESKTOP-algo`. Nadie lo había personalizado antes, ni siquiera con un «PORTATIL-DE-PACO».
 
 **Batería.** Con `powercfg /batteryreport` en un terminal de Windows saca un informe con los ciclos de carga y la salud. Salió bien.
 
@@ -71,7 +71,7 @@ Mi plan de seguro: guardar una captura de la página de garantía (para mí, no 
 
 ## Primer arranque (spoiler)
 
-Esa misma tarde le enchufé un pendrive con **CachyOS** (preparado con Ventoy) en modo live, sin instalar nada. Elegí la ISO, pulsé Enter en *Boot in normal mode* y me quedé mirando una pantalla negra con un guion fijo arriba a la izquierda. Esperé un minuto entero, sin que pasara nada, y por un momento pensé que ya la había liado.
+Esa misma tarde le enchufé un pendrive con **CachyOS** (preparado con Ventoy) en modo live, sin instalar nada. Elegí la ISO, pulsé Enter en *Boot in normal mode* y me quedé mirando una pantalla negra con un guion fijo arriba a la izquierda. Esperé un minuto entero, sin que pasara nada, y por un momento pensé que ya la había liado. Récord personal: portátil roto el mismo día que lo compro.
 
 Reinicié, volví a Ventoy y esta vez elegí **Boot in grub2 mode**. Ahí sí: apareció el menú de CachyOS, y después el escritorio KDE. No sé exactamente por qué el modo normal se cuelga en este portátil; la próxima vez voy directo a grub2.
 
@@ -81,4 +81,4 @@ Lo que viene (instalarlo cifrado, probar la suspensión y montar el laboratorio)
 
 ## Cierre
 
-Gracias al vendedor, que fue honesto en todo y me dejó mirar el equipo con calma. Y como siempre, Claude me ayudó a montar la lista y a buscar lo que no sabía; los botones los toqué yo.
+Gracias al vendedor, que fue honesto en todo y me dejó mirar el equipo con calma. Y como siempre, Claude me ayudó a montar la lista y a buscar lo que no sabía; los botones los toqué yo. Si algo explota, la culpa es mía.
