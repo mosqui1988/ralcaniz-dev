@@ -72,7 +72,7 @@ interes = "<ul>" + "".join(f"<li>{e(i)}</li>" for i in D["interes"] + D.get("int
 
 PUBLICO = page(
     D["titular"],
-    ["ruben@ralcaniz.dev", "ralcaniz.dev", "linkedin.com/in/ralcaniz"],
+    ["ruben@ralcaniz.dev"] + ([TELEFONO] if TELEFONO else []) + ["ralcaniz.dev", "linkedin.com/in/ralcaniz"],
     "Técnico en Sistemas Microinformáticos y Redes. Trabajé más de dos años en soporte técnico y después más de ocho en logística, "
     "de operario a responsable de equipo. Ahora retomo la informática en serio: curso módulos de Desarrollo de Aplicaciones Multiplataforma, "
     "aprendo Linux y administración de sistemas, y lo documento en un blog técnico propio.",
