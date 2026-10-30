@@ -18,9 +18,12 @@ e = html.escape
 # El teléfono no vive en el repo: se lee de CV_TELEFONO o de ~/.config/ralcaniz/telefono.
 _tel_file = Path("~/.config/ralcaniz/telefono").expanduser()
 TELEFONO = os.environ.get("CV_TELEFONO") or (_tel_file.read_text().strip() if _tel_file.exists() else "")
+# Localidad y código postal (solo para el CV público), de la misma carpeta de configuración.
+_loc_file = Path("~/.config/ralcaniz/localidad").expanduser()
+LOCALIDAD = os.environ.get("CV_LOCALIDAD") or (_loc_file.read_text().strip() if _loc_file.exists() else "")
 
 CSS = """
-@page { size: A4; margin: 11mm 14mm; }
+@page { size: A4; margin: 9mm 14mm; }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: 'Noto Sans','Liberation Sans',Arial,sans-serif; font-size: 9.3pt; line-height: 1.38; color: #1c1c1c; }
 header { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-bottom: 10px; border-bottom: 2.5px solid #0f766e; margin-bottom: 4px; }
@@ -29,7 +32,7 @@ h1 { margin: 0; font-size: 22pt; letter-spacing: .2px; }
 .contact { font-size: 9pt; color: #444; }
 .contact span + span::before { content: '·'; margin: 0 7px; color: #999; }
 img { width: 74px; height: 74px; border-radius: 50%; object-fit: cover; border: 2px solid #0f766e; }
-h2 { margin: 10px 0 5px; padding-bottom: 2px; font-size: 10pt; letter-spacing: 1.1px; text-transform: uppercase; color: #0f766e; border-bottom: 1px solid #cfd8d6; }
+h2 { margin: 9px 0 4px; padding-bottom: 2px; font-size: 10pt; letter-spacing: 1.1px; text-transform: uppercase; color: #0f766e; border-bottom: 1px solid #cfd8d6; }
 p { margin: 0 0 4px; }
 .item { margin-bottom: 5px; break-inside: avoid; }
 .row { display: flex; justify-content: space-between; gap: 10px; }
@@ -59,9 +62,10 @@ def skills(groups=None):
     return "".join(f"<div class='skill'><b>{e(g['grupo'])}</b><span>{e(', '.join(g['items']))}</span></div>"
                    for g in D["habilidades"] if groups is None or g["grupo"] in groups)
 
-def page(titular, contacto, perfil, secciones):
+def page(titular, contacto, perfil, secciones, localidad=""):
     head = (f"<header><div><h1>{e(D['nombre'])}</h1><div class='role'>{e(titular)}</div>"
-            f"<div class='contact'>{''.join(f'<span>{e(c)}</span>' for c in contacto)}</div></div>"
+            f"<div class='contact'>{''.join(f'<span>{e(c)}</span>' for c in contacto)}</div>"
+            + (f"<div class='contact'>{e(localidad)}</div>" if localidad else "") + "</div>"
             f"<img src='{PHOTO}' alt=''></header>")
     body = f"<h2>Perfil</h2><p>{e(perfil)}</p>" + "".join(f"<h2>{e(t)}</h2>{c}" for t, c in secciones)
     return f"<!doctype html><html lang='es'><meta charset='utf-8'><style>{CSS}</style><body>{head}{body}</body></html>"
@@ -78,7 +82,8 @@ PUBLICO = page(
     "aprendo Linux y administración de sistemas, y lo documento en un blog técnico propio.",
     [("Habilidades", skills()), ("Proyecto personal", proyecto_html),
      ("Experiencia técnica", exp(D["tecnica"])), ("Experiencia profesional", exp(D["experiencia"])),
-     ("Formación", edu()), ("Datos de interés", interes)])
+     ("Formación", edu()), ("Datos de interés", interes)],
+    LOCALIDAD)
 
 ADMIN = page(
     "Logística y administración · Técnico en Sistemas Microinformáticos y Redes",
