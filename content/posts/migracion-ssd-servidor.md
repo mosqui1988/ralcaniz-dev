@@ -3,6 +3,7 @@ title: "Le cambié el disco a mi servidor casero (y no fue ningún milagro, solo
 date: 2026-07-15T06:00:00+02:00
 draft: false
 description: "Cómo detecté que el disco duro de mi servidor casero estaba desgastado y lo sustituí por un SSD."
+tags: ["homelab", "hardware", "linux"]
 ---
 
 Este post no va de una hazaña. Va de una tarea de mantenimiento normal, del tipo que cualquier técnico de sistemas hace sin pensarlo dos veces — y de que, para hacerla, no necesité buscar ningún tutorial en YouTube. Solo recordar lo que ya sabía.

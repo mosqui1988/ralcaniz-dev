@@ -8,6 +8,10 @@ theme = 'PaperMod'
   author = "Rubén Alcañiz"
   description = "De camionero a desarrollador: aprendiendo Linux y programación desde cero."
   disableSpecial1stPost = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  featured = ["servidor-bridge-wol", "creia-que-lo-tenia-blindado", "acceso-remoto-tailscale"]
   images = ["img/og-image.jpg"]
 
 [[menu.main]]

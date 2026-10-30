@@ -2,6 +2,8 @@
 title: "Casi mando a RMA una CPU sana (y las culpables eran mis gatas)"
 date: 2026-07-26T18:14:00+02:00
 draft: false
+description: "Una torre que no arrancaba, ningún repuesto en casa y un diagnóstico pieza a pieza: cómo descarté RAM, placa y gráfica antes de mandar una CPU sana a RMA."
+tags: ["hardware", "diagnóstico"]
 ---
 
 Ayer apagué la Torre normal. Hoy la he encendido y no arrancaba. Así de tonto empieza esto.

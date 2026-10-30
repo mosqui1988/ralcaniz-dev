@@ -2,6 +2,8 @@
 title: "Me monté mi propio gestor de contraseñas (y aprendí más de lo que esperaba por el camino)"
 date: 2026-07-15T23:00:00+02:00
 draft: false
+description: "Instalé Vaultwarden en mi servidor casero con Docker y acceso solo por Tailscale: certificados HTTPS, un navegador que desconfiaba y lo que aprendí por el camino."
+tags: ["homelab", "seguridad", "vaultwarden", "docker", "tailscale"]
 ---
 
 Hay proyectos que parecen sencillos hasta que te metes dentro. Este era uno de esos: "instalar un gestor de contraseñas en mi servidor", una frase que suena a tarde tranquila. Al final me llevó por Docker, certificados HTTPS, un navegador que me llamó mentiroso a la cara, y terminé automatizando algo que ni sabía que había que automatizar. Este es, de momento, el post más largo que he escrito aquí — y también el que más he disfrutado, porque es de los que más me ha costado entender de verdad, no solo copiar y pegar.

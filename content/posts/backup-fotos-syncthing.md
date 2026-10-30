@@ -2,6 +2,8 @@
 title: "Monté mi propio backup de fotos (y un ordenador se negó a hablar con el otro)"
 date: 2026-07-12T19:19:00+02:00
 draft: false
+description: "Cómo monté un backup automático de las fotos del móvil en mis servidores caseros con Syncthing, sin nube de terceros, y por qué un ordenador se negaba a hablar con el otro."
+tags: ["homelab", "backups", "syncthing", "fotos"]
 ---
 
 Hay una cosa que me da bastante repelús: tener todas mis fotos solo en el móvil. Si se me cae, se moja o me lo roban, esos recuerdos se van con él. Como en casa ya tengo un par de ordenadores montados como servidores que funcionan las 24 horas, me pareció una tontería no aprovecharlos para esto. Así que me puse a montar mi propio backup de fotos, sin depender de Google Fotos ni de ninguna nube de pago.

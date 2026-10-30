@@ -3,6 +3,7 @@ title: "Una tormenta, un certificado a punto de caducar y un simulacro de catás
 date: 2026-10-02T21:58:04+02:00
 draft: false
 description: "Una tarde de tormenta reinició mi servidor siete veces. Al revisar que todo seguía bien encontré un certificado que caducaba en once días, un backup que 'no existía' y una pregunta incómoda: si mañana se rompe el servidor, me roban el móvil o pasa algo peor, ¿de verdad podría recuperar mis contraseñas?"
+tags: ["seguridad", "homelab", "backups", "vaultwarden"]
 ---
 
 Ayer hubo tormenta y en casa se fue la luz unas cuantas veces. Mi servidor no tiene SAI (una batería que lo mantenga encendido durante los cortes), así que con cada apagón se iba, y con cada vuelta de la luz arrancaba solo. Lo sé porque me llegaron cuatro correos seguidos con el asunto **"[server] Servidor reiniciado"**: el [aviso que monté hace unas semanas](/posts/aviso-reinicio-servidor-msmtp/) funcionó justo cuando tenía que funcionar.

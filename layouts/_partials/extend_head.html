@@ -1,0 +1,19 @@
+{{- /* Datos estructurados de persona para buscadores y asistentes de IA (solo portada y "Sobre mí"). */ -}}
+{{- if or .IsHome (eq .RelPermalink "/sobre-mi/") (eq .RelPermalink "/cv/") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rubén Alcañiz Meseguer",
+  "givenName": "Rubén",
+  "familyName": "Alcañiz Meseguer",
+  "url": "{{ "" | absURL }}",
+  "email": "mailto:ruben@ralcaniz.dev",
+  "jobTitle": "Técnico en Sistemas Microinformáticos y Redes",
+  "description": "Técnico en Sistemas Microinformáticos y Redes y estudiante de DAM. Viene de la logística y retoma la informática: Linux, homelab y ciberseguridad.",
+  "sameAs": ["https://es.linkedin.com/in/ralcaniz"],
+  "knowsAbout": ["Linux", "Administración de sistemas", "Redes", "VPN (Tailscale)", "Docker", "Copias de seguridad cifradas", "Ciberseguridad", "Git", "Hugo"],
+  "knowsLanguage": [{"@type": "Language", "name": "Español"}, {"@type": "Language", "name": "Inglés (básico)"}]
+}
+</script>
+{{- end }}

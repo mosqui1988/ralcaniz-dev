@@ -2,6 +2,8 @@
 title: "El servidor también necesitaba su propio seguro"
 date: 2026-07-18T12:30:00+02:00
 draft: false
+description: "Automaticé un backup semanal cifrado de mi servidor a la nube: por qué no basta con copiar el archivo de SQLite y cómo comprobé que la copia se puede restaurar."
+tags: ["seguridad", "backups", "homelab", "sqlite"]
 ---
 
 En el post anterior conté cómo descubrí un agujero real en mi plan de seguridad: si perdía el móvil, me quedaba sin poder entrar en nada, ni siquiera en mi propio correo. Lo resolví con un archivo cifrado, guardado en un sitio aparte, que rompe esa cadena.

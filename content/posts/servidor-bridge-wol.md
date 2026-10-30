@@ -3,6 +3,7 @@ title: "Le di vida a un PC de hace once años para poder encender el otro desde 
 date: 2026-07-07T00:30:00
 draft: false
 description: "Cómo fui, paso a paso, montando un pequeño servidor casero para poder encender mi PC principal estando fuera de casa. Con tropiezos, un experimento que no salió, y bastante vocabulario nuevo explicado sobre la marcha."
+tags: ["homelab", "redes", "tailscale", "wake-on-lan"]
 ---
 
 Anoche, pasada la medianoche, estaba tumbado en el sofá con el móvil en la mano. Había apagado el WiFi a propósito y activado los datos móviles, porque quería hacer la prueba de verdad, no una versión facilona con trampa. Escribí un comando, pulsé Enter, y esperé.

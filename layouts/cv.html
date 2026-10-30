@@ -1,0 +1,89 @@
+{{- define "main" }}
+{{- $cv := site.Data.cv }}
+<article class="cv">
+  <header class="cv-head">
+    <img class="cv-head__photo" src="/img/foto-perfil.jpg" alt="{{ $cv.nombre }}" width="104" height="104">
+    <div>
+      <p class="hero__prompt">$ cat cv.md</p>
+      <h1 class="cv-head__name">{{ $cv.nombre }}</h1>
+      <p class="cv-head__role">{{ $cv.titular }}</p>
+      <p class="hero__links">
+        <a href="/cv/CV_Ruben_Alcaniz.pdf" download>Descargar PDF</a>
+        <a href="mailto:ruben@ralcaniz.dev">Correo</a>
+        <a href="https://es.linkedin.com/in/ralcaniz" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </div>
+  </header>
+
+  <section class="cv-section">
+    <h2>Perfil</h2>
+    <p>{{ $cv.perfil }}</p>
+  </section>
+
+  <section class="cv-section">
+    <h2>Habilidades</h2>
+    {{- range $cv.habilidades }}
+    <div class="cv-skills">
+      <span class="cv-skills__group">{{ .grupo }}</span>
+      <ul class="card-tags">{{ range .items }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+    {{- end }}
+  </section>
+
+  <section class="cv-section">
+    <h2>Proyecto personal</h2>
+    <div class="cv-project">
+      <h3>{{ $cv.proyecto.titulo }}</h3>
+      <p>{{ $cv.proyecto.texto }}</p>
+      <ul>{{ range $cv.proyecto.puntos }}<li>{{ . }}</li>{{ end }}</ul>
+      <p><a href="/posts/">Ver los posts →</a></p>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <h2>Formación</h2>
+    <ol class="cv-timeline">
+      {{- range $cv.formacion }}
+      <li>
+        <span class="cv-timeline__date">{{ .fecha }}</span>
+        <h3>{{ .titulo }}</h3>
+        <p class="cv-timeline__org">{{ .detalle }}</p>
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+
+  <section class="cv-section">
+    <h2>Experiencia técnica</h2>
+    <ol class="cv-timeline">
+      {{- range $cv.tecnica }}
+      <li>
+        <span class="cv-timeline__date">{{ .fecha }}</span>
+        <h3>{{ .puesto }}</h3>
+        <p class="cv-timeline__org">{{ .empresa }}</p>
+        {{- with .texto }}<p>{{ . }}</p>{{ end }}
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+
+  <section class="cv-section">
+    <h2>Experiencia profesional</h2>
+    <ol class="cv-timeline">
+      {{- range $cv.experiencia }}
+      <li>
+        <span class="cv-timeline__date">{{ .fecha }}</span>
+        <h3>{{ .puesto }}</h3>
+        <p class="cv-timeline__org">{{ .empresa }}</p>
+        {{- with .texto }}<p>{{ . }}</p>{{ end }}
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+
+  <section class="cv-section">
+    <h2>Datos de interés</h2>
+    <ul>{{ range $cv.interes }}<li>{{ . }}</li>{{ end }}{{ range $cv.interes_publico }}<li>{{ . }}</li>{{ end }}</ul>
+  </section>
+</article>
+{{- end }}

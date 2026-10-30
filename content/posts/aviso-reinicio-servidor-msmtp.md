@@ -3,6 +3,7 @@ title: "Cuando se va la luz: un correo que avisa de cuándo ha vuelto"
 date: 2026-08-25T20:00:00+02:00
 draft: false
 description: "Quería que el servidor de casa avisara solo cuando se reiniciara, con la hora exacta. Parecía cosa de dos líneas, pero por el camino hubo una sesión SSH cortada a media tarea, un sudo que se negó a colaborar y una pregunta de AppArmor que no esperaba."
+tags: ["homelab", "servidor", "correo", "linux"]
 ---
 
 Hay proyectos que parecen sencillos hasta que te metes dentro. Este era uno de esos: "que me llegue un correo cuando el servidor se reinicie, con la hora exacta". En la teoría, dos líneas de nada. En la práctica: una sesión de SSH que se cortó a media tarea, un `sudo` que se negó a hablar conmigo, una ruta tan larga que se rompía al copiarla, y una ventanita de AppArmor preguntándome cosas que no esperaba.

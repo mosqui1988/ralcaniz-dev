@@ -1,0 +1,28 @@
+# De Reparto a Root (ralcaniz.dev)
+
+> Blog técnico y portfolio de Rubén Alcañiz Meseguer: de la logística y el transporte a la informática. Técnico en Sistemas Microinformáticos y Redes, estudiante de DAM, con un homelab propio y rumbo a la ciberseguridad.
+
+## Quién es
+- Técnico en Sistemas Microinformáticos y Redes. Trabajó como técnico informático (2013-2016) y después más de ocho años en logística del vidrio (operario, transportista, conductor C+E, responsable del equipo de logística).
+- Cursa módulos del CFGS de Desarrollo de Aplicaciones Multiplataforma (Programación, Entornos de Desarrollo, Inglés).
+- Aprende Linux y administración de sistemas por su cuenta y lo documenta en este blog. Interés principal: ciberseguridad, servidores y redes.
+- Contacto: ruben@ralcaniz.dev
+
+## Páginas principales
+- [Sobre mí](https://ralcaniz.dev/sobre-mi/): trayectoria, proyectos y hacia dónde va.
+- [CV](https://ralcaniz.dev/cv/): currículum completo, descargable en PDF ([PDF](https://ralcaniz.dev/cv/CV_Ruben_Alcaniz.pdf)).
+- [Posts](https://ralcaniz.dev/posts/): todos los artículos técnicos.
+- [Impresión 3D](https://ralcaniz.dev/impresion-3d/): su afición desde 2015.
+
+## Proyectos técnicos destacados (artículos)
+- [Servidor casero con Wake-on-LAN y Tailscale](https://ralcaniz.dev/posts/servidor-bridge-wol/)
+- [Acceso remoto seguro sin abrir puertos (Tailscale)](https://ralcaniz.dev/posts/acceso-remoto-tailscale/)
+- [Plan de recuperación de acceso y gestor de contraseñas propio (Vaultwarden)](https://ralcaniz.dev/posts/creia-que-lo-tenia-blindado/)
+- [Backup semanal cifrado del servidor](https://ralcaniz.dev/posts/servidor-tambien-necesitaba-seguro/)
+- [Simulacro de recuperación tras una catástrofe](https://ralcaniz.dev/posts/simulacro-catastrofe-contrasenas/)
+- [Galería de fotos propia con Immich](https://ralcaniz.dev/posts/immich-galeria-fotos/)
+- [Backup de fotos con Syncthing](https://ralcaniz.dev/posts/backup-fotos-syncthing/)
+- [CachyOS en un ThinkPad T14s (LUKS, btrfs, Limine)](https://ralcaniz.dev/posts/instalacion-cachyos-thinkpad-t14s/)
+
+## Stack y herramientas
+Linux (Arch/CachyOS, Debian), Docker, Tailscale, Syncthing, Immich, Vaultwarden, SQLite, btrfs, LUKS, Git, Hugo, Cloudflare (Pages, Registrar, Email Routing).

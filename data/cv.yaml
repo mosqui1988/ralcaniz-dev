@@ -1,0 +1,78 @@
+nombre: "Rubén Alcañiz Meseguer"
+titular: "Técnico en Sistemas Microinformáticos y Redes · estudiante de DAM"
+perfil: >-
+  Vengo de una etapa profesional muy distinta a la tecnología, pero con una base técnica que nunca dejé del todo:
+  soy Técnico en Sistemas Microinformáticos y Redes y trabajé un par de años en soporte técnico. Ahora estoy
+  retomando ese camino en serio: curso módulos de Desarrollo de Aplicaciones Multiplataforma, aprendo Linux y
+  administración de sistemas por mi cuenta, y lo documento todo en un proyecto personal real.
+
+habilidades:
+  - grupo: "Sistemas"
+    items: ["Linux (Arch/CachyOS, Debian)", "Administración de sistemas", "Docker", "btrfs", "LUKS"]
+  - grupo: "Redes y seguridad"
+    items: ["Tailscale (VPN mesh)", "Wake-on-LAN", "Backups cifrados", "Gestión de contraseñas (Vaultwarden)"]
+  - grupo: "Herramientas"
+    items: ["Git y GitHub", "Hugo", "Cloudflare (Pages, Registrar, Email Routing)", "Syncthing", "Immich"]
+  - grupo: "En aprendizaje activo"
+    items: ["Programación", "Entornos de desarrollo", "Inglés"]
+
+formacion:
+  - titulo: "CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)"
+    detalle: "Plaza parcial · cursando Programación, Entornos de Desarrollo e Inglés"
+    fecha: "En curso"
+  - titulo: "Técnico en Sistemas Microinformáticos y Redes"
+    detalle: "IES San Vicente"
+    fecha: ""
+  - titulo: "Gestión Logística"
+    detalle: "LABORA — Servei Valencià d'Ocupació i Formació · 150 horas · teleformación"
+    fecha: "2022"
+
+tecnica:
+  - puesto: "Técnico informático"
+    empresa: "Imagina Informática"
+    fecha: "sep 2013 – mar 2016"
+    texto: "Instalación, configuración, mantenimiento y reparación de equipos y sistemas informáticos, y soporte técnico a usuarios."
+
+experiencia:
+  - puesto: "Transportista y preparación de pedidos"
+    empresa: "Serraglass S.L."
+    fecha: "nov 2024 – actualidad"
+    texto: "Reparto con camión grúa autocargante y preparación de pedidos, tras la excedencia voluntaria."
+  - puesto: "Conductor profesional C+E"
+    empresa: "DELGO S.L. (excedencia de Serraglass)"
+    fecha: "dic 2023 – nov 2024"
+    texto: "Conductor de tráiler frigorífico, con gestión de temperaturas y normativa de seguridad en transporte nacional."
+  - puesto: "Responsable del equipo de logística"
+    empresa: "Serraglass S.L."
+    fecha: "ene 2022 – dic 2023"
+    texto: "Encargado de la sección de logística: dirección y coordinación del equipo, con objetivos y acciones de mejora."
+  - puesto: "Transportista"
+    empresa: "Serraglass S.L."
+    fecha: "feb 2020 – ago 2022"
+    texto: "Transporte y montaje de vidrios con camión grúa autocargante."
+  - puesto: "Operario de fábrica · preparación de expediciones"
+    empresa: "Serraglass S.L."
+    fecha: "ene 2016 – ene 2020"
+    texto: "Preparación y organización de expediciones, control de material y apoyo en tareas de producción."
+  - puesto: "Oficios varios"
+    empresa: "Construcción, agricultura y electricidad"
+    fecha: "2005 – 2013"
+    texto: ""
+
+proyecto:
+  titulo: "De Reparto a Root"
+  texto: "Blog técnico y homelab propio (ralcaniz.dev), construido y documentado desde cero como ejercicio práctico de aprendizaje."
+  puntos:
+    - "Sitio web propio con Hugo, desplegado en Cloudflare Pages y con control de versiones en Git/GitHub."
+    - "Acceso remoto seguro mediante VPN mesh (Tailscale), sin exponer puertos a internet."
+    - "Servidor casero (Debian + Docker) con backups cifrados, avisos por correo y simulacro de recuperación."
+    - "Sistema operativo diario: CachyOS (Arch Linux)."
+    - "Correo profesional con dominio propio (Cloudflare Email Routing)."
+
+interes:
+  - "Carnet de conducir C+E, CAP y tarjeta de tacógrafo digital en vigor; vehículo propio"
+  - "Idiomas: español (nativo), inglés (básico, en aprendizaje activo)"
+
+# Solo en el CV público (web y PDF público); no va en el de administración.
+interes_publico:
+  - "Impresión 3D desde 2015: FDM y resina, con post-procesado y pintura de figuras"

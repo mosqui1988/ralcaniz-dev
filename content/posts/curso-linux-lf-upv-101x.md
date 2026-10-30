@@ -3,6 +3,7 @@ title: "Me apunté a un curso gratis de Linux Foundation (y ahora quiero el LPIC
 date: 2026-07-29T08:00:00+02:00
 draft: false
 description: "Empecé el LF-UPV-101x buscando entender mejor mi propio sistema, y terminé con la certificación LPIC en el horizonte."
+tags: ["linux", "formación", "lpic"]
 ---
 
 Un compañero, José Manuel, me habló de un curso gratuito de Linux Foundation en edX, el **LF-UPV-101x — Introducción a Linux**, hecho con la Universitat Politècnica de València. Yo ya llevaba unas semanas trasteando con CachyOS, publicando aquí lo que iba aprendiendo a base de romper cosas, pero seguía teniendo la sensación de estar construyendo la casa sin haber visto los planos. Así que dije: vale, vamos a por los planos.

@@ -1,12 +1,8 @@
 ---
 title: "CV"
+description: "Currículum de Rubén Alcañiz Meseguer: Técnico en Sistemas Microinformáticos y Redes, estudiante de DAM, experiencia en soporte técnico y en logística, homelab propio con Linux."
+layout: "cv"
 hidemeta: true
 disableShare: true
 comments: false
 ---
-
-Aquí puedes descargar mi currículum actualizado en PDF.
-
-[📄 Descargar CV (PDF)](/cv/CV_Ruben_Alcaniz.pdf)
-
-También puedes escribirme directamente a [ruben@ralcaniz.dev](mailto:ruben@ralcaniz.dev).

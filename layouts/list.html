@@ -51,6 +51,35 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
+{{- if and .IsHome (eq $paginator.PageNumber 1) }}
+<section class="hero">
+  <img class="hero__photo" src="/img/foto-perfil.jpg" alt="Rubén Alcañiz" width="96" height="96">
+  <div class="hero__body">
+    <p class="hero__prompt">$ whoami</p>
+    <h1 class="hero__name">Rubén Alcañiz</h1>
+    <p class="hero__tagline">De la logística del vidrio al desarrollo y los sistemas. Estudio DAM, monto mi propio homelab y lo cuento aquí, tal cual.</p>
+    <p class="hero__links">
+      <a href="/sobre-mi/">Sobre mí</a>
+      <a href="/cv/">CV</a>
+      <a href="https://es.linkedin.com/in/ralcaniz" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:ruben@ralcaniz.dev">Correo</a>
+    </p>
+  </div>
+</section>
+{{- with site.Params.featured }}
+<section class="featured">
+  <h2 class="featured__title">Empieza por aquí</h2>
+  <ul class="featured__list">
+    {{- range . }}
+    {{- with site.GetPage (printf "/posts/%s" .) }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</section>
+{{- end }}
+{{- end }}
+
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
@@ -79,6 +108,11 @@
       {{- end }}
     </h2>
   </header>
+  {{- with .Params.tags }}
+  <ul class="card-tags">
+    {{- range . }}<li>{{ . }}</li>{{ end }}
+  </ul>
+  {{- end }}
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>

@@ -2,6 +2,8 @@
 title: "Creía que ya lo tenía todo blindado (y no era así)"
 date: 2026-07-18T10:00:00+02:00
 draft: false
+description: "Monté un gestor de contraseñas propio y me pregunté qué pasaría si perdía el móvil: un recorrido por los agujeros de mi plan de recuperación de acceso y cómo los cerré."
+tags: ["seguridad", "vaultwarden", "backups", "contraseñas"]
 ---
 
 Hace unas semanas monté Vaultwarden en mi servidor casero — mi propio gestor de contraseñas, como Bitwarden pero corriendo en un ordenador de mi casa en vez de en los servidores de una empresa. Mi plan era simple: meter ahí dentro absolutamente todas mis contraseñas, incluida la de mi propio correo de Google, y que fueran aleatorias, imposibles de recordar de memoria. Lo único que memorizaría sería una sola contraseña: la maestra de Vaultwarden. Todo lo demás, resuelto.

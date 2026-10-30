@@ -2,6 +2,8 @@
 title: "Quería un Chrome Remote Desktop para Linux (y me topé con un bug real)"
 date: 2026-07-06T10:00:00
 draft: false
+description: "Probé VNC con Krfb y Krdc y luego RustDesk para controlar mi ROG Ally y mi torre desde el móvil en Wayland, hasta toparme con un bug real y aprender a leer logs."
+tags: ["linux", "escritorio remoto", "wayland", "rustdesk"]
 ---
 
 Con CachyOS ya instalado y funcionando en la Ally ([como conté en el post anterior](/posts/post-cachyos-rog-ally/)), quería poder controlar tanto la Ally como mi torre desde el móvil, cómodamente, como cuando usas Chrome Remote Desktop. Me parecía lo más sencillo del mundo. No lo fue, pero el camino hasta rendirme (y lo que aprendí por el camino) merece contarse.

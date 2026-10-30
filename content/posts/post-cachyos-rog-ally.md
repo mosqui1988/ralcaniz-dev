@@ -2,6 +2,8 @@
 title: "Le metí Linux a mi ROG Ally (y el USB no quería arrancar)"
 date: 2026-07-06T09:00:00
 draft: false
+description: "Instalé CachyOS Handheld Edition en una ROG Ally con un USB de Ventoy: qué funciona, qué no y los problemas de hardware que me encontré por el camino."
+tags: ["linux", "cachyos", "gaming", "handheld"]
 ---
 
 Tengo una ROG Ally Z1 Extreme. La compré para jugar, como cualquiera. Pero después de meterle CachyOS a mi torre y quedarme enganchado a esto de Linux, empecé a mirarla con otros ojos: ¿y si le hago lo mismo a la Ally?

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Ilustración de la zona de impresión con dos armarios">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16211f"/><stop offset="1" stop-color="#0d1312"/></linearGradient></defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <rect x="0" y="400" width="640" height="80" fill="#111a19"/>
+  <rect x="90" y="90" width="210" height="310" rx="6" fill="#2b3a38" stroke="#4b5563" stroke-width="3"/>
+  <path d="M90 190H300M90 290H300" stroke="#4b5563" stroke-width="3"/>
+  <rect x="110" y="140" width="60" height="50" rx="4" fill="#2dd4bf"/><rect x="190" y="150" width="90" height="40" rx="4" fill="#ffbd2e"/>
+  <rect x="110" y="236" width="40" height="54" rx="4" fill="#7c3aed"/><rect x="160" y="246" width="40" height="44" rx="4" fill="#7c3aed"/><rect x="210" y="256" width="40" height="34" rx="4" fill="#7c3aed"/>
+  <rect x="110" y="336" width="170" height="54" rx="4" fill="#3b4a48"/>
+  <rect x="360" y="190" width="140" height="210" rx="6" fill="#2b3a38" stroke="#4b5563" stroke-width="3"/>
+  <path d="M360 260H500M360 330H500" stroke="#4b5563" stroke-width="3"/>
+  <g fill="#ff5f56"><rect x="376" y="226" width="14" height="30" rx="3"/></g><g fill="#27c93f"><rect x="396" y="226" width="14" height="30" rx="3"/></g><g fill="#ffbd2e"><rect x="416" y="226" width="14" height="30" rx="3"/></g><g fill="#2dd4bf"><rect x="436" y="226" width="14" height="30" rx="3"/></g><g fill="#7c3aed"><rect x="456" y="226" width="14" height="30" rx="3"/></g>
+  <rect x="376" y="296" width="108" height="30" rx="4" fill="#3b4a48"/>
+</svg>

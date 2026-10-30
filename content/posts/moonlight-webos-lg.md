@@ -2,6 +2,8 @@
 date = '2026-07-04T16:16:20+02:00'
 draft = false
 title = 'Instalé Moonlight en mi tele LG sin levantarme del sofá (y sin mando)'
+tags = ['gaming', 'moonlight', 'tailscale', 'homelab']
+description = 'Cómo instalé Moonlight en una tele LG con webOS, sin mando y fuera de la tienda oficial, para jugar en remoto a mi PC desde el sofá.'
 +++
 
 Llevo un tiempo jugando en remoto a mi PC desde la Ayn Thor con Moonlight, gracias al lío de Tailscale que ya conté por aquí. Funciona de maravilla, pero hay un problema: la pantalla de la handheld es pequeña, y en el salón tengo una tele LG de 55 pulgadas cogiendo polvo mientras juego mirando una pantalla diminuta. Así que pensé: ¿por qué no meto Moonlight directamente en la tele?

@@ -3,6 +3,7 @@ title: "Me he montado mi propio servidor de streaming: ahora puedo jugar en mi P
 date: 2026-07-07T14:00:00
 draft: false
 description: "Cómo terminé de cerrar el círculo del proyecto del servidor casero: no solo encender el PC en remoto, sino también jugar en él desde una red completamente distinta a la de casa, usando el mando de mi ROG Ally."
+tags: ["homelab", "gaming", "tailscale", "moonlight"]
 ---
 
 Hay historias que empiezan con un objetivo modesto y terminan en un sitio que ni te habías planteado al arrancar. Esta es una de ellas.

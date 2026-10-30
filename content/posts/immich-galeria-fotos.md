@@ -3,6 +3,7 @@ title: "Mi propio Google Fotos en casa (y un botón de Guardar que no vi)"
 date: 2026-10-02T20:52:02+02:00
 draft: false
 description: "Ya tenía las fotos del móvil copiándose solas al servidor, pero verlas era como mirar una carpeta de archivos. Instalé Immich para tener una galería de verdad, sin reconocimiento facial y sin poder borrar nada por accidente. Por el camino: un navegador que se negaba a entrar, el miedo a las fotos duplicadas y unos ajustes que no se guardaban."
+tags: ["homelab", "immich", "fotos", "docker"]
 ---
 
 Hace unos meses monté el [backup de fotos con Syncthing](/posts/backup-fotos-syncthing/): el móvil manda las fotos al servidor de casa y ahí se quedan guardadas. Funciona de maravilla, pero tiene un problema. Para ver una foto tenía que meterme en una carpeta llena de archivos con nombres tipo `PXL_20260712_171902.jpg`. Eso es un backup, no una galería.

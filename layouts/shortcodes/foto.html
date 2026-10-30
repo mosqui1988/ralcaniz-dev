@@ -1,0 +1,4 @@
+<figure class="gallery__item{{ if .Get "wide" }} gallery__item--wide{{ end }}">
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" loading="lazy">
+  {{- with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
