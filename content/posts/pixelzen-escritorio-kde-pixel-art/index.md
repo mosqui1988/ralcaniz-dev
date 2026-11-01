@@ -161,10 +161,12 @@ El tema completo no funcionará, pero algunas piezas son estándar. Con `./insta
 
 ## Descarga y licencia
 
-**[pixelzen-1.0.tar.gz](/descargas/pixelzen/pixelzen-1.0.tar.gz)** (1 MB)
+**[pixelzen-1.0.tar.gz](https://github.com/mosqui1988/pixelzen/releases/download/v1.0/pixelzen-1.0.tar.gz)** (1 MB)
+
+Código fuente, README con capturas y el sitio para abrir *issues*: **[github.com/mosqui1988/pixelzen](https://github.com/mosqui1988/pixelzen)**
 
 SHA-256: `d11705d136cf5e91ca4bc23061971ad66b7fe0ab895d3a112123022c729d89ba`
 
 Código y arte: GPL-3.0-or-later. Fuentes (Departure Mono, Pixelify Sans, DotGothic16, VT323): SIL OFL 1.1. Glifos de iconos: Pixelarticons, MIT. Los textos de las licencias van dentro del paquete.
 
-Si lo pruebas y algo se rompe, cuéntamelo.
+Si lo pruebas y algo se rompe, cuéntamelo (lo más cómodo es abrir un *issue* en el repositorio).
