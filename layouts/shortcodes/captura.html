@@ -1,0 +1,9 @@
+{{- $nombre := .Get "src" -}}
+{{- $img := .Page.Resources.GetMatch $nombre -}}
+{{- $url := cond (ne $img nil) $img.RelPermalink $nombre -}}
+<figure class="captura{{ if .Get "wide" }} captura--wide{{ end }}">
+  <a href="{{ $url }}" target="_blank" rel="noopener" title="Abrir a tamaño completo">
+    <img src="{{ $url }}" alt="{{ .Get "alt" }}" loading="lazy"{{ with $img }} width="{{ .Width }}" height="{{ .Height }}"{{ end }}>
+  </a>
+  {{- with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

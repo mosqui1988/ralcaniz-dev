@@ -522,6 +522,37 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* ---------- Capturas grandes en los posts (shortcode "captura") ---------- */
+/* .post-content img limita las imagenes a 280px; las capturas de pantalla necesitan mas. */
+.captura {
+  margin: 1.5rem 0;
+}
+.captura--wide {
+  position: relative;
+  left: 50%;
+  width: min(1080px, calc(100vw - 2rem));
+  transform: translateX(-50%);
+}
+.post-content .captura img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.captura a {
+  display: block;
+  line-height: 0;
+}
+.captura figcaption {
+  margin-top: 0.5rem;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--secondary);
+  text-align: center;
+}
+
 /* ---------- Página de CV ---------- */
 .cv-head {
   display: flex;
