@@ -38,7 +38,7 @@ La parte que más me gusta, y la que me costó más. El fondo no es una imagen: 
 
 {{< captura wide="true" src="escritorio-amanecer.png" alt="El mismo paisaje al amanecer, con el cielo violeta y rosa" caption="Amanecer (clic para ver a tamaño completo)" >}}
 
-- El sol sale por el este, cruza el cielo y se pone por el oeste según la fecha y tu latitud. El cálculo (el de la NOAA) lo hace el propio widget, así que **no gasta nada** mientras lo usas.
+- El sol sale por el este, cruza el cielo y se pone por el oeste según la fecha y tu latitud. El cálculo (con fórmulas astronómicas estándar) lo hace el propio widget, así que **no gasta nada** mientras lo usas.
 - El paisaje existe en **tres iluminaciones** (noche, hora dorada y día) que se mezclan poco a poco según la altura del sol.
 - De noche salen la luna, las estrellas, las luces de la pagoda y las luciérnagas. De día desaparecen.
 - El camino de luz sobre el lago sigue al sol o a la luna.
@@ -59,6 +59,32 @@ hora.sh real    # vuelve a la hora del reloj
 El mismo fondo, animado, se ve en la pantalla de bloqueo:
 
 {{< captura wide="true" src="bloqueo.png" alt="La pantalla de bloqueo con el mismo paisaje" caption="La pantalla de bloqueo, con el mismo fondo animado" >}}
+
+### ¿Cómo sabe dónde está el sol?
+
+Es la pregunta que más me han hecho. Mi primera idea fue una tabla con las horas de amanecer y anochecer de cada ciudad, pero no hace falta: el sol sigue unas reglas conocidas, y con la fecha y el lugar se puede **calcular** dónde está en cada momento.
+
+> **Para entenderlo rápido**
+>
+> Piensa en un columpio: cuando subes ves el cielo y cuando bajas ves el suelo. La Tierra gira sobre sí misma y por eso el sol parece subir por la mañana y bajar por la tarde.
+>
+> PixelZen calcula lo alto que está el sol con tres cosas: **qué día es** (en verano sube más que en invierno), **qué hora es** (cuánto ha girado la Tierra) y **dónde estás** (en España el sol no sale igual que en Japón).
+>
+> Con eso sale un número: número bajo, noche con estrellas y luna 🌙; número medio, cielo naranja de amanecer o atardecer 🌅; número alto, día ☀️.
+
+**Los pasos, a grandes rasgos:**
+
+1. **Qué día es de verdad.** Se cuentan los días desde el año 2000 en hora universal (UTC), que es la misma en todo el mundo. Por eso la zona horaria apenas interviene.
+2. **Dónde está el sol en su órbita.** La órbita de la Tierra no es un círculo perfecto y su eje está inclinado. Dos pequeñas correcciones dan la *declinación*: lo alto o bajo que pasa el sol según la época del año.
+3. **Cuánto ha girado la Tierra.** Sale del *tiempo sidéreo*, que mide el giro del planeta respecto a las estrellas.
+4. **Dónde estás tú.** La **latitud y la longitud** convierten ese giro en el *ángulo horario*: cuánto ha avanzado el sol desde su punto más alto.
+5. **Altura del sol.** Declinación, ángulo horario y latitud dan un único número: los grados que el sol está por encima (o por debajo) del horizonte.
+
+Esa altura lo controla todo. Por debajo de unos −14° es noche cerrada, entre −14° y 0° el cielo se tiñe de dorado, y a partir de unos 16° es pleno día. Las estrellas aparecen cuando el sol baja de unos −6°, y entre un tramo y otro la transición se suaviza con una curva (*smoothstep*) para que no haya saltos.
+
+**¿Y las zonas horarias?** Como el cálculo parte de la hora UTC y de tu latitud y longitud, solo hace falta saber dónde estás. Eso sale de la zona horaria del equipo (buscando su punto en `zone1970.tab`, sin red) o de una ciudad fija que configures. Si viajas y cambias la zona, el paisaje se ajusta solo. Si tuviera que hacerlo para un entorno con muchas zonas, haría lo mismo: guardar todo en UTC y convertir a hora local solo al mostrar.
+
+**Una pega:** la luna **no** se calcula así. Es un arco decorativo de este a oeste que se reparte según lo que dura la noche en tu ciudad. Queda natural, pero no es su posición real ni sus fases.
 
 ## Cómo está hecho
 
