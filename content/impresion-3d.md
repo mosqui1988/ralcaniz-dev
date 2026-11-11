@@ -46,8 +46,10 @@ Así se ve el proceso en una figura de Imu (One Piece) que quedó a medias (foto
 
 Tengo montada una zona dedicada en el garaje, con dos armarios (los actuales son nuevos: los anteriores no sobrevivieron a la DANA que afectó a Valencia). En el grande guardo la Ender 3, la Uniformation y sus consumibles — botes de resina, la cajita de curado UV, el aerógrafo. En el pequeño, pinturas y todo lo del post-procesado.
 
-{{< gallery >}}
-{{< foto src="/img/3d/garaje-armarios.svg" alt="Ilustración de la zona de trabajo con dos armarios" caption="La zona del garaje" >}}
+{{< gallery cols="2" >}}
+{{< foto wide="true" src="/img/3d/garaje-zona.jpg" alt="Rincón del garaje con el armario grande abierto, una mesa de trabajo y una silla" caption="La zona del garaje: armario grande a la izquierda y mesa de trabajo" >}}
+{{< foto src="/img/3d/garaje-armario-grande.jpg" alt="Armario grande con la Uniformation GK3, la caja de curado UV, la Ender dentro de su carpa y el compresor del aerógrafo" caption="Armario grande: Uniformation GK3, curado UV, Ender 3 en su carpa y compresor del aerógrafo" >}}
+{{< foto src="/img/3d/garaje-armario-pequeno.jpg" alt="Armario pequeño con pinturas, pinceles, limpiador de aerógrafo, lijas y productos de post-procesado" caption="Armario pequeño: pinturas, pinceles, lijas y todo el post-procesado" >}}
 {{< /gallery >}}
 
 ## Ahora mismo, en pausa
