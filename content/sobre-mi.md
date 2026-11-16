@@ -54,7 +54,7 @@ A corto plazo: sacar adelante los módulos que estoy cursando (Programación, En
 
 Tengo ganas de hacer cosas. Si te interesa ver cómo avanza esto, sígueme el rastro por aquí.
 
-📬 [ruben@ralcaniz.dev](mailto:ruben@ralcaniz.dev) · 📄 [Ver mi CV](/cv/)
+📬 [ruben@ralcaniz.dev](mailto:ruben@ralcaniz.dev) · 📄 [Ver mi CV](/cv/) · 💻 [GitHub](https://github.com/mosqui1988)
 
 {{< linkedin-badge >}}
 

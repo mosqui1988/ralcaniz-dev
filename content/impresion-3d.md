@@ -1,6 +1,10 @@
 ---
 title: "Impresión 3D"
 date: 2026-08-24
+description: "Mi afición desde 2015: de una Prusa i3 Hephestos montada en kit a la resina y a figuras grandes con una Uniformation GK3."
+hidemeta: true
+disableShare: true
+comments: false
 ---
 
 Antes de Linux, antes del blog, antes del homelab, ya andaba metido en esto: llevo con la impresión 3D desde 2015.

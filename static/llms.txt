@@ -7,6 +7,8 @@
 - Cursa módulos del CFGS de Desarrollo de Aplicaciones Multiplataforma (Programación, Entornos de Desarrollo, Inglés).
 - Aprende Linux y administración de sistemas por su cuenta y lo documenta en este blog. Interés principal: ciberseguridad, servidores y redes.
 - Contacto: ruben@ralcaniz.dev
+- GitHub: https://github.com/mosqui1988
+- LinkedIn: https://es.linkedin.com/in/ralcaniz
 
 ## Páginas principales
 - [Sobre mí](https://ralcaniz.dev/sobre-mi/): trayectoria, proyectos y hacia dónde va.
@@ -23,6 +25,13 @@
 - [Galería de fotos propia con Immich](https://ralcaniz.dev/posts/immich-galeria-fotos/)
 - [Backup de fotos con Syncthing](https://ralcaniz.dev/posts/backup-fotos-syncthing/)
 - [CachyOS en un ThinkPad T14s (LUKS, btrfs, Limine)](https://ralcaniz.dev/posts/instalacion-cachyos-thinkpad-t14s/)
+- [Memoria compartida para Claude Code entre tres ordenadores (Obsidian + Syncthing)](https://ralcaniz.dev/posts/cerebro-compartido-claude-code/)
+- [Sincronizar proyectos entre tres equipos](https://ralcaniz.dev/posts/sincronizar-proyectos-tres-equipos/)
+- [NeonGrid: tema cyberpunk de KDE Plasma en pixel art (código abierto)](https://ralcaniz.dev/posts/neongrid-ciudad-cyberpunk-kde/)
+- [PixelZen: tema de KDE Plasma en pixel art cuyo fondo sigue al sol (código abierto)](https://ralcaniz.dev/posts/pixelzen-escritorio-kde-pixel-art/)
+
+## Código
+- [GitHub: mosqui1988](https://github.com/mosqui1988): temas de KDE Plasma (NeonGrid, PixelZen) y el código de este blog.
 
 ## Stack y herramientas
 Linux (Arch/CachyOS, Debian), Docker, Tailscale, Syncthing, Immich, Vaultwarden, SQLite, btrfs, LUKS, Git, Hugo, Cloudflare (Pages, Registrar, Email Routing).
