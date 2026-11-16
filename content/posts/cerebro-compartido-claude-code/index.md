@@ -4,6 +4,11 @@ date: 2026-11-16T15:04:35+01:00
 draft: false
 description: "Cada vez que abría Claude Code tenía que explicarle todo otra vez. Cómo monté una carpeta de notas, sincronizada entre mis tres equipos, para que sepa lo que hice y en qué ordenador."
 tags: ["claude-code", "syncthing", "homelab", "linux"]
+cover:
+  image: "portada.jpg"
+  alt: "Un cerebro digital hecho de nodos luminosos conectado por haces de luz a una torre, un portátil y un servidor"
+  relative: true
+  hiddenInSingle: true
 ---
 
 Hay una cosa que me molestaba cada vez que abría Claude Code: **no se acordaba de nada**. Había pasado la tarde con él montando un tema de escritorio en el portátil, y al día siguiente, en la torre, tocaba contárselo todo otra vez. Qué hicimos, dónde está cada cosa, qué falló y por qué lo dejamos así.
